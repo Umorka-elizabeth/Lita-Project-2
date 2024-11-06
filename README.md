@@ -85,12 +85,13 @@ After cleaning the data in excel, pivot table was used for the analysis and then
  
  - Subscription Segment/Performance: The barchart shows the subscription segments as shown by subscription types and revenue generated.
 The Basic subscription type is the most popular type with the highest revenue of N34M which is 50% of the entire revenue generated while Premium and Standard type, each reported N17M revenue. It also reveals the regional revenue. East Region came top with a marginal revenue of N0.1M above other regions revenue of N16.9, N16.8 respectively.
--Subscription Segment/Customer behaviour: The total customers subscription is 34K with Basic type reporting 50% of the total number and remaining 50% was shared equally by Premium and Standard type. The regional subscription pattern by customers is on marginal level. 25.12 % of the total subscription by customers was from East being the highest, followed by South, North and West reporting 25%, 24.96% and 24.92% respectively.
+-Subscription Segment/Customer behaviour: The total customers subscription is 34K with Basic type reporting 50% of the total number and remaining 50% was shared equally by Premium and Standard type. The regional subscription pattern by customers is on marginal level. The doughnut depicts that 25.12 % of the total subscription by customers was from East being the highest, followed by South, North and West reporting 25%, 24.96% and 24.92% respectively.
 
  - Subscription Trend: From the dashboard above, we could see at a glance that this customer service is operating at a downward trend from 2023 to 2024 at yearly, quartely and monthly basis.
 
-- Subscription Cancellation & Active: This analysis number of active and cancelled subscription.
- 
+- Subscription Cancellation & Active: This analysis number of active and cancelled subscription. The number of Active subscription as at the reporting period is 15,175 count with a corresponding revenue of N30M which is 45% of the entire revenue and canceled subscription is 18,612 with revenue of N37M representing 55% of the total revenue. This analysis is shown by the cards and the corresponding piechats and table which further explain in details.
+
+- Subscription By Renewal: The table shows the subscription by renewal on yearly basis. Year 2023 reported the highest renewal of 20K count and the corresponding revenue of about N40M while year 2024 reported almost 14K count and revenue of about N27M for 8 months (January to August).
  
 
 
