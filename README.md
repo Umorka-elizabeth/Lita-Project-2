@@ -93,12 +93,20 @@ The Basic subscription type is the most popular type with the highest revenue of
 - Subscription Cancellation & Active: This analysis number of active and cancelled subscription. The number of Active subscription as at the reporting period is 15,175 count with a corresponding revenue of N30M which is 45% of the entire revenue and canceled subscription is 18,612 with revenue of N37M representing 55% of the total revenue. This analysis is shown by the cards and the corresponding piechats and table which further explain in details.
 
 - Subscription By Renewal: The table shows the subscription by renewal on yearly basis. Year 2023 reported the highest renewal of 20K count and the corresponding revenue of about N40M while year 2024 reported almost 14K count and revenue of about N27M for 8 months (January to August).
- 
-
-
+  
 ### Recommendation
 ---
+1. Engage more on marketing to generate more customers to buy into subscriptiontype Premium and standard in order to measure up and beyond Basic subscriptiontype.
+   
+2. Basic is a Star and also a cash generating unit to the business, therefore, there is need for continuous investment in marketing and improvement to maintain a competitive position and growth.
+   
+4. Understanding customers interest for satisfaction and sales growth in their various region. The regions are all operating marginally, strategies should be deployed to enhance more sales in all the regions. For example, new packages for the different subscription types, discount allowed etc
+   
+5. Management should help to review the downward revenue trends and develop strategies for upward trend.
 
+6. The basis for cancelled subscription should be looked into to avoid such huge amount of loss to the business.
+
+7. Managenement should invest aggressive marketing to boost revenue in the last quarter of 2024 and subsequently. 
 
 ### Conclusion
 ---
