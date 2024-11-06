@@ -78,7 +78,6 @@ After cleaning the data in excel, pivot table was used for the analysis and then
    
  ### Dashboard Overview
  ![CUSTOMER VISUALIZATION DASHBOARD](https://github.com/user-attachments/assets/285dea79-06b5-4723-be11-b10c3110e29b)
- 
  ![REVENUE TRENDS](https://github.com/user-attachments/assets/9aea3718-677b-4554-9b84-f30a5e415e73)
 
  ### Datalysis and Insights Generation
