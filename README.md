@@ -110,7 +110,7 @@ The Basic subscription type is the most popular type with the highest revenue of
 
 ### Conclusion
 ---
-The customer subscription service operates on a top and marginal level in all segments except for the challenge of renewal cancellation and the revenue trends. Our recommendation focus on investment in marketing to boost revenue and continuous growth as well as customer satisfaction. With the adoption of the aforementioned strategies, increase in revenue, customers retainership and sustainable growth will be achieved.
+The customer subscription service operates on a top and marginal level in all segments except for the challenge of renewal cancellation and the revenue trends. Our recommendation focus on investment in marketing to boost revenue, customers satisfaction to avoid cancellation as well as continuous growth. With the adoption of the aforementioned strategies, increase in revenue, customers retainership and sustainable growth will be achieved.
  
 
 
