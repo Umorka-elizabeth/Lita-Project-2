@@ -81,7 +81,14 @@ After cleaning the data in excel, pivot table was used for the analysis and then
  ![REVENUE TRENDS](https://github.com/user-attachments/assets/9aea3718-677b-4554-9b84-f30a5e415e73)
 
  ### Datalysis and Insights Generation
- This visualization tells a lot about the Customer Subscription Service. 
+ This visualization reveals the segments, revenue trends, subscription pattern, cancellations and renewals of the Customer Subscription Service.
+ 
+ - Subscription Segment/Performance
+ The barchart shows the subscription segments as shown by subscription types and revenue generated.
+The Basic subscription type is the most popular type with the highest revenue of N34M which is 50% of the entire revenue generated while Premium and Standard type, each reported N17M revenue. It also reveals the regional revenue. East Region come top with a marginal revenue of N0.1M above other regions revenue of N16.9, N16.8 respectively
+
+ - Subscription Trend
+From the dashboard above, we could see at a glance that this customer service is operating at a downward trend from 2023 to 2024 at yearly, quartely and monthly basis.
  
  
 
