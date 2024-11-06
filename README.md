@@ -71,10 +71,11 @@ After cleaning the data in excel, pivot table was used for the analysis and then
 
  ### Tools used
  ---
-1. Microsoft Excel: This is used for data cleaning, analysis and creating pivot visualization
-2. Structured Query Language for quering data
-3. PowerBI for dashboard visualization
-
+1. Microsoft Excel: This is used for data cleaning, analysis and creating pivot visualization.
+   [Download Here](https://www.microsoft.com)
+2. Structured Query Language for quering data[DownloadHere](https://www.Managementstudio\LITA_PROJECT.sql)
+5. PowerBI for dashboard visualization
+   
  ### Dashboard Overview
  ![CUSTOMER VISUALIZATION DASHBOARD](https://github.com/user-attachments/assets/285dea79-06b5-4723-be11-b10c3110e29b)
  
