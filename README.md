@@ -13,13 +13,13 @@ Customer Segmentation Analysis for a Subscription Service
  
  [Data Manipulation](#data-manipulation)
  
- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis)
+ [Exploratory Data Analysis(EDA)](#exploratory-data-analysis(eda))
  
  [Tools Used](#tools-used)
  
  [Dashbord Overview](#dashboard-overview)
  
- [Data Analysis and Insights Generation](#data-analysis-and-insight-generation)
+ [Data Analysis and Insights Generation](#data-analysis-and-insights-generation)
  
  [Recommendation](#recommendation)
  
@@ -53,7 +53,7 @@ The dataset includes the following fields:
  ### Methodology
  ---
 ### Data Collection
-The dataset for this analysis was provided by the Incubator Hub, Lita Data Analysis Dept. The data was provided in Excel and CSV format, making it accessible for analysis.
+The dataset for this analysis was provided by the Incubator Hub through LMS. The data was provided in Excel format, making it accessible for analysis.
 
 ### Data Manipulation
 1. Data Cleaning:
@@ -69,6 +69,58 @@ After cleaning the data in excel, pivot table was used for the analysis and then
 * Descriptive Analysis: Metrics calculation was done on Excel for the average subscription duration which reported a period of 12 months which is one year and the most popular subscription type is Basic. SQL queries were written for a futher insight into the subscription pattern and trends and PowerBI was used for visualisation dashboard.
 * Dashboard Creation: Pivot table on Excel was used for the summarisation of the dataset and PowerBi dashboard visualizes the data using components like barchat, piechart, donought, table, area chart, tables, cards and slicer.
 
+ ### Data Analysis on Structured Query Lanquage
+ ---
+ This is where we include some basic lines of queries during our analysis.
+
+ To SELECT THE CUSTOMER DATASET TABLE 
+ ```SQL
+Select * from [dbo].[PROJECT 2 CUSTOMER DATA]
+```
+TO RETRIEVE TOTAL NUMBER OF CUSTOMERS FROM EACH REGION
+```
+SELECT REGION, COUNT(CUSTOMERID) AS CUSTOMERID FROM[dbo].[PROJECT 2 CUSTOMER DATA]
+GROUP BY REGION
+```
+THE MOST POPULAR SUBSCRIPTION TYPE BY NUMBER OF CUSTOMERS
+```
+select top 1 subscriptiontype, count(distinct customerid) as total_customers from[dbo].[PROJECT 2 CUSTOMER DATA]
+Group by SubscriptionType
+```
+CUSTOMERS WHO CANCELED THEIR SUBSCRIPTION WITHIN 6 MONTHS
+```
+SELECT customerID from[dbo].[PROJECT 2 CUSTOMER DATA]
+WHERE datediff(month, subscriptionStart, subscriptionEnd)<=6
+Group by customerID;
+```
+AVERAGE SUBSCRIPTION DURATION FOR ALL CUSTOMERS
+```
+SELECT AVG(datediff(day,subscriptionStart, subscriptionEnd)) as Avg_subscription_duration FROM[dbo].[PROJECT 2 CUSTOMER DATA]
+```
+CUSTOMERS WITH SUSBCRIPTION LONGER THAN 12 MONTHS
+```
+SELECT customerID FROM [dbo].[PROJECT 2 CUSTOMER DATA]
+Where datediff(month, subscriptionStart, SubscriptionEnd)>12;
+```
+REVENUE BY SUBSSCRIPTION TYPE
+```
+SELECT Sum(Revenue) as Total_Revenue, subscriptionType as SubscriptionType from[dbo].[PROJECT 2 CUSTOMER DATA]
+GROUP BY SubscriptionType
+```
+TOP 3 REGIONS BY SUBSCRIPTION CANCELLATION
+```
+SELECT TOP 3(REGION) AS REGION, Canceled AS SUBSCRIPTION_CANCELED FROM[dbo].[PROJECT 2 CUSTOMER DATA]
+Order by Canceled;
+```
+TOTAL NUMBER OF ACTIVE AND CANCELED SUBSCRIPTION
+```
+SELECT COUNT(Canceled) AS SUBSCRIPTION_CANCELED FROM [dbo].[PROJECT 2 CUSTOMER DATA]
+WHERE CANCELED = 0
+```
+```
+SELECT COUNT(CANCELED) AS SUBSCRIPTION_ACTIVE FROM [dbo].[PROJECT 2 CUSTOMER DATA]
+WHERE CANCELED = 1
+```
  ### Tools used
  ---
 1. Microsoft Excel: This is used for data cleaning, analysis and creating pivot visualization.
